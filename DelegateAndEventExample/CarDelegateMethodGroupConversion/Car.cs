@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Configuration;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DelegateAndEventExampleCars
+namespace CarDelegateMethodGroupConversion
 {
-    //Car is create as the publisher
+   //Car is create as the publisher
     public class Car
     {
-        
+
         // Internal state data.
         public int CurrentSpeed { get; set; }
         public int MaxSpeed { get; set; } = 100;
